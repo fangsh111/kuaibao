@@ -1,0 +1,150 @@
+<!--<script  type="text/javascript">-->
+<!--js_object = eval({{result_json|safe }});-->
+<!--alert(js_object.url);-->
+<!--document.cookie=js_object.cookie-->
+<!--document.location.href=js_object.url+'?cookies='+js_object.cookie-->
+<!--</script>-->
+<!--<html>-->
+<!--<body>-->
+<!--&lt;!&ndash;<a href="http://www.baidu.com" class="a_post">发起POST请求</a>&ndash;&gt;-->
+<!--&lt;!&ndash;<script type="text/javascript" src="../static/jquery.js"></script>&ndash;&gt;-->
+<!--<  type="text/javascript" >-->
+<!--//     $.getJSON('/'-->
+<!--//                 , function(data) {                    // 从Flask返回的数据-->
+<!--//                     alert(data.url)                   // 浏览器弹窗显示 后端返回的dict["a"]的值，此次是1-->
+<!--//             }-->
+<!--//           )-->
+<!--// );-->
+
+<!--// $.ajax({-->
+<!--//-->
+<!--//     headers: {-->
+<!--//         Accept: "application/json; charset=utf-8",-->
+<!--//         "Access-Token" : js_object.token,-->
+<!--//     },-->
+<!--//     type: "get",-->
+<!--//     success: function (data) {-->
+<!--//     }-->
+<!--// });-->
+<!--// $.ajax({-->
+<!--//         headers: {-->
+<!--//         Accept: "application/json; charset=utf-8",-->
+<!--//         // "Access-Token" : js_object.token,-->
+<!--//     },-->
+<!--//-->
+<!--//     type: "get",-->
+<!--//-->
+<!--//     url:js_object.url,-->
+<!--//-->
+<!--//     // dataType: "jsonp"-->
+
+
+    <!--// headers : {'Authorization':'Basic bmVvd2F5Oe4lb3dheQ=='},-->
+
+    <!--// success: function(data){ alert(data); },-->
+    <!--//-->
+    <!--// error: function(data){ alert("error"); } ,-->
+
+<!--// });-->
+
+<!--js_object = eval({{result_json|safe }});-->
+<!--// Win-->
+
+<!--// $.ajax({-->
+<!--//     url:'http://baidu.com',-->
+<!--//     async:false,-->
+<!--//     success:function () {-->
+<!--//         alert('ajax')-->
+<!--//     }-->
+<!--// });-->
+<!--alert(js_object.url);-->
+<!--document.cookie=js_object.cookie-->
+<!--location.href=js_object.url-->
+<!--// $.ajax({-->
+<!--//     url: 'http://e-chac.champion-ic.com/ipartner/login/user',-->
+<!--//     data: {},-->
+<!--//     type: "GET",-->
+<!--//     beforeSend: function(xhr){xhr.setRequestHeader('Referer', '');},//这里设置header-->
+<!--//     success: function() {-->
+<!--//         document.cookie=js_object.cookie-->
+<!--//         window.open(js_object.url)-->
+<!--//     }-->
+<!--// });-->
+<!--// $(".a_post").on("click",function(event){-->
+<!--//     event.preventDefault();//使a自带的方法失效，即无法调整到href中的URL(http://www.baidu.com)-->
+<!--//     $.ajax({-->
+<!--//            type: "POST",-->
+<!--//            url: "http://e-chac.champion-ic.com/ipartner/j_spring_security_check?targeturl=",-->
+<!--//            contentType:"application/json",-->
+<!--//            data: JSON.stringify({'j_username': '0103B214','j_password':'y123456','_captcha_token_paramter':'','role':'vehicle','roleCode':'vehicle'}),//参数列表-->
+<!--//            dataType:"json",-->
+<!--//            success: function(result){-->
+<!--//               //请求正确之后的操作-->
+<!--//            },-->
+<!--//            error: function(result){-->
+<!--//               //请求失败之后的操作-->
+<!--//            }-->
+<!--//     });-->
+<!--// });-->
+        <!--/*-->
+        <!--*功能： JS跳转页面，并已POST方式提交数据-->
+        <!--*参数： URL 跳转地址 PARAMTERS 参数-->
+        <!--*返回值：-->
+        <!--*创建时间：20160713-->
+        <!--*创建人：-->
+        <!--*/-->
+        <!--// function ShowReport_Click() {-->
+        <!--//-->
+        <!--//     var parames = new Array();-->
+        <!--//     parames.push({ name: "param1", value: "param1"});-->
+        <!--//     parames.push({ name: "param2", value: "param2"});-->
+        <!--//-->
+        <!--//     Post("SupplierReportPreview.aspx", parames);-->
+        <!--//-->
+        <!--//     return false;-->
+        <!--// }-->
+
+        <!--/*-->
+        <!--*功能： 模拟form表单的提交-->
+        <!--*参数： URL 跳转地址 PARAMTERS 参数-->
+        <!--*返回值：-->
+        <!--*创建时间：20160713-->
+        <!--*创建人：-->
+        <!--*/-->
+        <!--// function Post(URL, PARAMTERS) {-->
+        <!--//     //创建form表单-->
+        <!--//     var temp_form = document.createElement("form");-->
+        <!--//     temp_form.action = URL;-->
+        <!--//     //如需打开新窗口，form的target属性要设置为'_blank'-->
+        <!--//     temp_form.target = "_self";-->
+        <!--//     temp_form.method = "post";-->
+        <!--//     temp_form.style.display = "none";-->
+        <!--//     //添加参数-->
+        <!--//     for (var item in PARAMTERS) {-->
+        <!--//         var opt = document.createElement("textarea");-->
+        <!--//         opt.name = PARAMTERS[item].name;-->
+        <!--//         opt.value = PARAMTERS[item].value;-->
+        <!--//         temp_form.appendChild(opt);-->
+        <!--//     }-->
+        <!--//     document.body.appendChild(temp_form);-->
+        <!--//     //提交数据-->
+        <!--//     temp_form.submit();-->
+        <!--// }-->
+        <!--// var data = new Array();-->
+        <!--// //  data.push({ name: "j_username", value: "0103B214"});-->
+        <!--// // data.push({ name: "j_password", value: "y123456"});-->
+        <!--// // data.push({ name: "_captcha_token_paramter", value: "y7ye"});-->
+        <!--// // data.push({ name: "role", value: "vehicle"});-->
+        <!--// // data.push({ name: "roleCode", value: "vehicle"});-->
+        <!--//     data.push({ name: "comCode", value: "86320014"});-->
+        <!--//     data.push({ name: "password", value: "86320014"});-->
+        <!--// // // alert(data)-->
+        <!--// url='http://e-chac.champion-ic.com/ipartner/j_spring_security_check?targeturl=';-->
+        <!--// url2='http://jingdai.hongkang-life.com/jdt-pc/api/user/verifyUserCom.json';-->
+        <!--// Post(url2,data)-->
+
+
+<!--</>-->
+<!--</body>-->
+<!--</html>-->
+
