@@ -1,0 +1,30 @@
+<xml>
+    <ToUserName><![CDATA[公众号]]></ToUserName>
+    <FromUserName><![CDATA[粉丝号]]></FromUserName>
+    <CreateTime>1460537339</CreateTime>
+    <MsgType><![CDATA[text]]></MsgType>
+    <Content><![CDATA[欢迎开启公众号开发者模式]]></Content>
+    <MsgId>6272960105994287618</MsgId>
+</xml>
+        <!--<data>-->
+        <!--<country name="Liechtenstein">-->
+        <!--<rank updated="yes">2</rank>-->
+        <!--<year>2008</year>-->
+        <!--<gdppc>141100</gdppc>-->
+        <!--<neighbor name="Austria" direction="E"/>-->
+        <!--<neighbor name="Switzerland" direction="W"/>-->
+        <!--</country>-->
+        <!--<country name="Singapore">-->
+        <!--<rank updated="yes">5</rank>-->
+        <!--<year>2011</year>-->
+        <!--<gdppc>59900</gdppc>-->
+        <!--<neighbor name="Malaysia" direction="N"/>-->
+        <!--</country>-->
+        <!--<country name="Panama">-->
+        <!--<rank updated="yes">69</rank>-->
+        <!--<year>2011</year>-->
+        <!--<gdppc>13600</gdppc>-->
+        <!--<neighbor name="Costa Rica" direction="W"/>-->
+        <!--<neighbor name="Colombia" direction="E"/>-->
+        <!--</country>-->
+        <!--</data>-->

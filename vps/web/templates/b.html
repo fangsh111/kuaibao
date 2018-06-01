@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aaa</title>
+</head>
+<body>
+
+<!--<img src="http://e-chac.champion-ic.com/ipartner/captcha">-->
+<img id='code_url' src=''>
+<input id="code" name="code"><input>
+<!--<input type="hidden"  name="foo" value="bar">-->
+
+<!--<iframe align="center" width="100%" height="170" src="https://abc.taikanglife.com/"  , frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>-->
+<iframe src="https://abc.taikanglife.com/" ，id="if1"></iframe>
+
+<!--<button type='button' style="width:90px;height:30px;" , onclick=setiframe()>登录</button>-->
+
+
+<script type="text/javascript" src="../static/jquery.js"></script>
+<script type="text/javascript">
+    url = 'http://e-chac.champion-ic.com/ipartner/j_spring_security_check?targeturl=';
+    url2 = 'http://jingdai.hongkang-life.com/jdt-pc/api/user/verifyUserCom.json';
+    url2 = 'http://jingdai.hongkang-life.com/jdt-pc/user/showInfoCom.action'
+    url3 = 'http://ply.e-acic.com/cas/login?service=http%3A%2F%2Fply.e-acic.com%2Fpcis%2Fj_spring_security_check'
+    url4 = 'https://abc.taikanglife.com/system/api/v1/login'
+    url5 = 'https://abc.taikanglife.com/html/index.html?fromurl=https://abc.taikanglife.com/system/api/v1/login'
+
+    js_object = eval({
+    {
+        result_json | safe
+    }
+    })
+    var element = document.getElementById('code_url');
+    element.src = js_object.code_url;
+    var element1 = document.getElementById('f1');
+    element1.src = 'https://abc.taikanglife.com/';
+    var zdoc = document.frames[f1].document
+    zdoc.getElementById('userCode').value = '1234'
+    zdoc.getElementById('password').value = '1234'
+
+    // alert(js_object.lt)
+    function Post(URL, PARAMTERS) {
+        var data = new Array();
+        data.push({name: "userCode", value: "13914798032"});
+        data.push({name: "password", value: "jqc123456"});
+        data.push({name: "verifyCode", value: document.getElementById("code").value});
+        data.push({name: "randomCode", value: js_object.guid});
+        //  data.push({ name: "j_username", value: "0103B214"});
+        // data.push({ name: "j_password", value: "y123456"});
+        // data.push({ name: "_captcha_token_paramter", value: document.getElementById("code").value});
+        // data.push({ name: "role", value: "vehicle"});
+        // data.push({ name: "roleCode", value: "vehicle"});
+        //             data.push({ name: "comCode", value: "86320014"});
+        //     data.push({ name: "password", value: "86320014"});
+        // data.push({ name: "service", value: "http%3A%2F%2Fply.e-acic.com%2Fpcis%2Fj_spring_security_check"});
+        // data.push({ name: "username", value: "141019333"});
+        // data.push({ name: "password", value: "55555"});
+        // data.push({ name: "lt", value: js_object.lt});
+        // data.push({ name: "execution", value: "e1s1"});
+        // data.push({ name: "_eventId", value: "submit"});
+        // data.push({ name: "btnSubmit", value: ""});
+
+        //创建form表单
+        var temp_form = document.createElement("form");
+        temp_form.action = URL;
+        //如需打开新窗口，form的target属性要设置为'_blank'
+        temp_form.target = "_self";
+        temp_form.method = "post";
+        temp_form.style.display = "none";
+        //添加参数
+        for (var item in data) {
+            var opt = document.createElement("textarea");
+            opt.name = data[item].name;
+            opt.value = data[item].value;
+            temp_form.appendChild(opt);
+        }
+        document.body.appendChild(temp_form);
+        //提交数据
+
+        temp_form.submit();
+        // document.location.href='http://jingdai.hongkang-life.com/jdt-pc/enterprise/search.action'
+
+    }
+
+    function get_data() {
+        var data = new Array();
+        data.push({name: "j_username", value: "0103B214"});
+        data.push({name: "j_password", value: "y123456"});
+        data.push({name: "_captcha_token_paramter", value: document.getElementById("code")});
+        data.push({name: "role", value: "vehicle"});
+        data.push({name: "roleCode", value: "vehicle"});
+
+    }
+
+    function register() {
+        var sendData = {
+            userCode: "13914798032",
+            password: "jqc123456",
+            verifyCode: document.getElementById("code").value,
+            randomCode: js_object.guid
+        };
+        $.ajax({
+            url: 'https://abc.taikanglife.com/system/api/v1/login',
+            type: "POST",
+            data: sendData,
+            dataType: 'jsonp',
+            jsonp: 'callback',
+            // "Content-Type" : "application/javascript",
+            success: function (data) {
+                window.sessionStorage.setItem('token', data.token);
+                window.sessionStorage.setItem('userCode', data.userCode);
+                window.sessionStorage.setItem('userName', data.userName);
+                window.sessionStorage.setItem('phone', data.phone);
+                window.sessionStorage.setItem('userId', data.id);
+                window.localStorage.setItem('userCode', data.userCode);
+                window.location.href = "https://abc.taikanglife.com/html/index.html";
+                firstLogin = false;
+            }
+        })
+    }
+
+    function setiframe() {
+        var zdoc = document.frames[f1].document
+        zdoc.getElementById('userCode').value = '1234'
+        zdoc.getElementById('password').value = '1234'
+    }
+
+    //     data.push({ name: "comCode", value: "86320014"});
+    //     data.push({ name: "password", value: "86320014"});
+    //  data.push({ name: "j_username", value: "0103B214"});
+    // data.push({ name: "userCode", value: "13914798032"});
+    // data.push({ name: "password", value: "jqc123456"});
+    // data.push({ name: "verifyCode", value: "f4wr"});
+    // data.push({ name: "randomCode", value: "6d494dcd-4c57-ccdc-8e44-cca142015229"});
+    // alert(data)
+
+    // url2='http://jingdai.hongkang-life.com/jdt-pc/api/user/verifyUserCom.json';
+    // ur3='https://abc.taikanglife.com/system/api/v1/login'
+
+    // document.location.href='https://abc.taikanglife.com/html/index.html'
+</script>
+</body>
+</html>

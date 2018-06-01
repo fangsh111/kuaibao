@@ -1,0 +1,49 @@
+<body>
+<iframe align="center" width="100%" height="170" src="https://abc.taikanglife.com" frameborder="no" border="0"
+        marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+<script type="text/javascript" src="../static/jquery.js"></script>
+<script type="text/javascript">
+
+    function Post(URL, PARAMTERS) {
+        //创建form表单
+        var temp_form = document.createElement("form");
+        temp_form.action = URL;
+        //如需打开新窗口，form的target属性要设置为'_blank'
+        temp_form.target = "_self";
+        temp_form.method = "post";
+        temp_form.style.display = "none";
+        //添加参数
+        for (var item in PARAMTERS) {
+            var opt = document.createElement("textarea");
+            opt.name = PARAMTERS[item].name;
+            opt.value = PARAMTERS[item].value;
+            temp_form.appendChild(opt);
+        }
+        document.body.appendChild(temp_form);
+        //提交数据
+        temp_form.submit();
+    }
+
+    var data = new Array();
+    data.push({name: "j_username", value: "0103B214"});
+    data.push({name: "j_password", value: "y123456"});
+    data.push({name: "_captcha_token_paramter", value: "ha53   "});
+    data.push({name: "role", value: "vehicle"});
+    data.push({name: "roleCode", value: "vehicle"});
+    //     data.push({ name: "comCode", value: "86320014"});
+    //     data.push({ name: "password", value: "86320014"});
+    //  data.push({ name: "j_username", value: "0103B214"});
+    // data.push({ name: "userCode", value: "13914798032"});
+    // data.push({ name: "password", value: "jqc123456"});
+    // data.push({ name: "verifyCode", value: "f4wr"});
+    // data.push({ name: "randomCode", value: "6d494dcd-4c57-ccdc-8e44-cca142015229"});
+    // alert(data)
+    url = 'http://e-chac.champion-ic.com/ipartner/j_spring_security_check?targeturl=';
+    // url2='http://jingdai.hongkang-life.com/jdt-pc/api/user/verifyUserCom.json';
+    // ur3='https://abc.taikanglife.com/system/api/v1/login'
+    Post(url, data)
+    // document.location.href='https://abc.taikanglife.com/html/index.html'
+</script>
+</body>
+

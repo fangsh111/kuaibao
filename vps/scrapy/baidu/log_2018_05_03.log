@@ -1,0 +1,1287 @@
+2018-05-03 14:28:39 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 14:28:39 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 14:28:39 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 14:28:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 14:28:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 14:28:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 14:28:39 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 14:28:39 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 14:28:39 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 14:29:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 14:29:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30923,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1429394,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 6, 29, 38, 866400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 6, 28, 39, 939400)}
+2018-05-03 14:29:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 14:38:39 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 14:38:39 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 14:38:39 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 14:38:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 14:38:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 14:38:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 14:38:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 14:38:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 14:38:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 14:39:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 14:39:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30920,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1420477,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 6, 39, 37, 419400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 6, 38, 40, 32400)}
+2018-05-03 14:39:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 14:48:39 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 14:48:39 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 14:48:39 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 14:48:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 14:48:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 14:48:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 14:48:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 14:48:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 14:48:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 14:49:39 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 14:49:39 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30915,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1417502,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 6, 49, 39, 890400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 6, 48, 40, 140400)}
+2018-05-03 14:49:39 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 14:58:39 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 14:58:39 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 14:58:39 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 14:58:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 14:58:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 14:58:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 14:58:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 14:58:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 14:58:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 14:59:40 [scrapy.extensions.logstats] INFO: Crawled 48 pages (at 48 pages/min), scraped 47 items (at 47 items/min)
+2018-05-03 14:59:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 14:59:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30930,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1557277,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 6, 59, 41, 828400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 6, 58, 40, 181400)}
+2018-05-03 14:59:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 15:08:39 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 15:08:39 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 15:08:39 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 15:08:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 15:08:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 15:08:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 15:08:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 15:08:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 15:08:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 15:09:40 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 15:09:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 15:09:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30936,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1426415,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 7, 9, 41, 163400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 7, 8, 40, 328400)}
+2018-05-03 15:09:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 15:18:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 15:18:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 15:18:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 15:18:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 15:18:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 15:18:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 15:18:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 15:18:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 15:18:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 15:19:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 15:19:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30932,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1417963,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 7, 19, 40, 346400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 7, 18, 40, 607400)}
+2018-05-03 15:19:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 15:28:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 15:28:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 15:28:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 15:28:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 15:28:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 15:28:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 15:28:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 15:28:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 15:28:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 15:29:40 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 15:29:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 15:29:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30948,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1556751,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 7, 29, 41, 571400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 7, 28, 40, 477400)}
+2018-05-03 15:29:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 15:38:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 15:38:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 15:38:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 15:38:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 15:38:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 15:38:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 15:38:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 15:38:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 15:38:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 15:39:40 [scrapy.extensions.logstats] INFO: Crawled 50 pages (at 50 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 15:39:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 15:39:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30944,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1562708,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 7, 39, 40, 575400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 7, 38, 40, 521400)}
+2018-05-03 15:39:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 15:48:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 15:48:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 15:48:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 15:48:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 15:48:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 15:48:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 15:48:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 15:48:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 15:48:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 15:49:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 15:49:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30946,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1563579,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 7, 49, 40, 132400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 7, 48, 40, 523400)}
+2018-05-03 15:49:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 15:58:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 15:58:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 15:58:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 15:58:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 15:58:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 15:58:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 15:58:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 15:58:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 15:58:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 15:59:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 15:59:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30933,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1411402,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 7, 59, 38, 876400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 7, 58, 40, 627400)}
+2018-05-03 15:59:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 16:08:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 16:08:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 16:08:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 16:08:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 16:08:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 16:08:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 16:08:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 16:08:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 16:08:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 16:09:40 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 16:09:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 16:09:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30936,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1571128,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 8, 9, 41, 760400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 8, 8, 40, 825400)}
+2018-05-03 16:09:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 16:18:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 16:18:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 16:18:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 16:18:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 16:18:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 16:18:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 16:18:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 16:18:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 16:18:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 16:19:41 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 16:19:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 16:19:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30935,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1417906,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 8, 19, 41, 518400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 8, 18, 41, 97400)}
+2018-05-03 16:19:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 16:28:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 16:28:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 16:28:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 16:28:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 16:28:40 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 16:28:40 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 16:28:40 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 16:28:40 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 16:28:40 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 16:29:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 16:29:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30955,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1402322,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 8, 29, 38, 688400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 8, 28, 40, 965400)}
+2018-05-03 16:29:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 16:38:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 16:38:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 16:38:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 16:38:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 16:38:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 16:38:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 16:38:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 16:38:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 16:38:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 16:39:37 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 16:39:37 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30963,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1554264,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 8, 39, 37, 353400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 8, 38, 41, 154400)}
+2018-05-03 16:39:37 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 16:48:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 16:48:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 16:48:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 16:48:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 16:48:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 16:48:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 16:48:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 16:48:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 16:48:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 16:49:38 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 16:49:38 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30945,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1410398,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 8, 49, 38, 428400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 8, 48, 41, 211400)}
+2018-05-03 16:49:38 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 16:58:40 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 16:58:40 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 16:58:40 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 16:58:40 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 16:58:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 16:58:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 16:58:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 16:58:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 16:58:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 16:59:41 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 16:59:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 16:59:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30944,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1408449,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 8, 59, 42, 84400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 8, 58, 41, 290400)}
+2018-05-03 16:59:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 17:08:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 17:08:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 17:08:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 17:08:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 17:08:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 17:08:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 17:08:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 17:08:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 17:08:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 17:09:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 17:09:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30948,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1411635,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 9, 9, 41, 358400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 9, 8, 41, 542400)}
+2018-05-03 17:09:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 17:18:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 17:18:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 17:18:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 17:18:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 17:18:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 17:18:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 17:18:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 17:18:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 17:18:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 17:19:41 [scrapy.extensions.logstats] INFO: Crawled 48 pages (at 48 pages/min), scraped 47 items (at 47 items/min)
+2018-05-03 17:19:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 17:19:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30947,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1415799,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 9, 19, 42, 918400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 9, 18, 41, 502400)}
+2018-05-03 17:19:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 17:28:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 17:28:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 17:28:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 17:28:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 17:28:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 17:28:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 17:28:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 17:28:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 17:28:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 17:29:41 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 17:29:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 17:29:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30942,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1406888,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 9, 29, 41, 703400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 9, 28, 41, 585400)}
+2018-05-03 17:29:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 17:38:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 17:38:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 17:38:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 17:38:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 17:38:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 17:38:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 17:38:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 17:38:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 17:38:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 17:39:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 17:39:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30981,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1557772,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 9, 39, 40, 930400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 9, 38, 41, 707400)}
+2018-05-03 17:39:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 17:48:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 17:48:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 17:48:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 17:48:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 17:48:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 17:48:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 17:48:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 17:48:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 17:48:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 17:49:41 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 17:49:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 17:49:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 31600,
+ 'downloader/request_count': 51,
+ 'downloader/request_method_count/GET': 51,
+ 'downloader/response_bytes': 1541541,
+ 'downloader/response_count': 51,
+ 'downloader/response_status_count/200': 50,
+ 'downloader/response_status_count/302': 1,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 9, 49, 42, 31400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 51,
+ 'scheduler/dequeued/memory': 51,
+ 'scheduler/enqueued': 51,
+ 'scheduler/enqueued/memory': 51,
+ 'start_time': datetime.datetime(2018, 5, 3, 9, 48, 41, 743400)}
+2018-05-03 17:49:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 17:58:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 17:58:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 17:58:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 17:58:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 17:58:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 17:58:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 17:58:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 17:58:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 17:58:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 17:59:41 [scrapy.extensions.logstats] INFO: Crawled 49 pages (at 49 pages/min), scraped 48 items (at 48 items/min)
+2018-05-03 17:59:42 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 17:59:42 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30964,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1412459,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 9, 59, 42, 330400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 9, 58, 41, 786400)}
+2018-05-03 17:59:42 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 18:08:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 18:08:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 18:08:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 18:08:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 18:08:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 18:08:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 18:08:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 18:08:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 18:08:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 18:09:40 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 18:09:40 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30975,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1551481,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 10, 9, 40, 428400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 10, 8, 41, 926400)}
+2018-05-03 18:09:40 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 18:18:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 18:18:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 18:18:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 18:18:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 18:18:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 18:18:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 18:18:41 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 18:18:41 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 18:18:41 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 18:19:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 18:19:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30961,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1402999,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 10, 19, 41, 178400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 10, 18, 41, 948400)}
+2018-05-03 18:19:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 18:28:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 18:28:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 18:28:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 18:28:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 18:28:41 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 18:28:41 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 18:28:42 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 18:28:42 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 18:28:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 18:29:41 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 18:29:41 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30949,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1393769,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 10, 29, 41, 953400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 7,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 10, 28, 42, 25400)}
+2018-05-03 18:29:41 [scrapy.core.engine] INFO: Spider closed (finished)
+2018-05-03 18:38:41 [scrapy.utils.log] INFO: Scrapy 1.5.0 started (bot: baidu)
+2018-05-03 18:38:41 [scrapy.utils.log] INFO: Versions: lxml 4.2.1.0, libxml2 2.9.5, cssselect 1.0.3, parsel 1.4.0, w3lib 1.19.0, Twisted 17.9.0, Python 3.6.4 (v3.6.4:d48eceb, Dec 19 2017, 06:54:40) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.1.0g  2 Nov 2017), cryptography 2.2.1, Platform Windows-7-6.1.7601-SP1
+2018-05-03 18:38:41 [scrapy.crawler] INFO: Overridden settings: {'BOT_NAME': 'baidu', 'DOWNLOAD_DELAY': 1, 'LOG_FILE': 'log_2018_05_03.log', 'LOG_LEVEL': 'INFO', 'LOG_STDOUT': True, 'NEWSPIDER_MODULE': 'baidu.spiders', 'SPIDER_MODULES': ['baidu.spiders']}
+2018-05-03 18:38:41 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2018-05-03 18:38:42 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2018-05-03 18:38:42 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2018-05-03 18:38:42 [scrapy.middleware] INFO: Enabled item pipelines:
+['baidu.pipelines.BaiduPipeline']
+2018-05-03 18:38:42 [scrapy.core.engine] INFO: Spider opened
+2018-05-03 18:38:42 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2018-05-03 18:39:42 [scrapy.extensions.logstats] INFO: Crawled 48 pages (at 48 pages/min), scraped 47 items (at 47 items/min)
+2018-05-03 18:39:44 [scrapy.core.engine] INFO: Closing spider (finished)
+2018-05-03 18:39:44 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 30947,
+ 'downloader/request_count': 50,
+ 'downloader/request_method_count/GET': 50,
+ 'downloader/response_bytes': 1400779,
+ 'downloader/response_count': 50,
+ 'downloader/response_status_count/200': 50,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2018, 5, 3, 10, 39, 44, 112400),
+ 'item_scraped_count': 49,
+ 'log_count/INFO': 8,
+ 'request_depth_max': 1,
+ 'response_received_count': 50,
+ 'scheduler/dequeued': 50,
+ 'scheduler/dequeued/memory': 50,
+ 'scheduler/enqueued': 50,
+ 'scheduler/enqueued/memory': 50,
+ 'start_time': datetime.datetime(2018, 5, 3, 10, 38, 42, 214400)}
+2018-05-03 18:39:44 [scrapy.core.engine] INFO: Spider closed (finished)
