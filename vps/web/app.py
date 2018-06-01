@@ -5,7 +5,6 @@ import re
 import requests
 import random
 from werkzeug.utils import redirect
-##测试
 def guid():
     def S4():
         x_str = '0123456789abcdef'
