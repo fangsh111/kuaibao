@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/my_web/app1/.idea/app1.iml" filepath="$PROJECT_DIR$/my_web/app1/.idea/app1.iml" />
+      <module fileurl="file://C:/fang/.idea/fang.iml" filepath="C:/fang/.idea/fang.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/github.iml" filepath="$PROJECT_DIR$/.idea/github.iml" />
+      <module fileurl="file://C:/fang/scrapy/info_disclosure/.idea/info_disclosure.iml" filepath="C:/fang/scrapy/info_disclosure/.idea/info_disclosure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my_web/.idea/my_web.iml" filepath="$PROJECT_DIR$/my_web/.idea/my_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/.idea/test.iml" filepath="$PROJECT_DIR$/test/.idea/test.iml" />
+    </modules>
+  </component>
+</project>
