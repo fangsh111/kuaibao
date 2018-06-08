@@ -11,6 +11,9 @@
     <orderEntry type="module" module-name="app1" />
     <orderEntry type="module" module-name="my_web" />
     <orderEntry type="module" module-name="test" />
+    <orderEntry type="module" module-name="qt" />
+    <orderEntry type="module" module-name="1" />
+    <orderEntry type="module" module-name="快保-保单托管" />
   </component>
   <component name="TestRunnerService">
     <option name="projectConfiguration" value="Twisted Trial" />
